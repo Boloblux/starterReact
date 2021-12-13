@@ -36,6 +36,8 @@ import styles from '../styles/Navbar.module.css'
     condition ? true : false*/
 
 export default function Navbar(){
+    const [user, setUser] = useState(null);
+
     return (
         /*<div>
             <h1>To do :</h1>
@@ -48,9 +50,19 @@ export default function Navbar(){
             <button onClick={addEntryClick}>Add</button>
         </div>*/
         <div className={styles.navcontainer}>
-            <p>toto</p>
-            <p>tata</p>
-            <p>titi</p>
+            <h3>NFTMarketplace</h3>
+            <p>Menu</p>
+            <div>
+                { user ? (
+                    <button>
+                        Logout
+                    </button>
+                ) : (
+                    <button>
+                        Login
+                    </button>
+                )}
+            </div>
         </div>
     )
 }

@@ -1,0 +1,10 @@
+.cardcontainer {
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: rgb(52, 92, 80);
+    padding: 1em;
+}
+
+.price{
+    color:yellow;
+}

@@ -1,0 +1,14 @@
+.marketcontainer {
+    width: 80vw;
+    text-align: center;
+    margin : auto;
+    border: 2px solid black;
+    padding-bottom: 3em;
+    border-radius: 12px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
